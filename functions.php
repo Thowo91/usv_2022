@@ -11,6 +11,8 @@ function add_usv_scripts()
 
     wp_enqueue_style('bootstrap', CSS . '/bootstrap.min.css', [], null);
     wp_enqueue_script('bootstrap', JS . '/bootstrap.bundle.min.js');
+
+    wp_enqueue_style( 'fontawesome', ASSETS. '/fontawesome/css/all.css', [], null );
 }
 
 add_action('wp_enqueue_scripts', 'add_usv_scripts');
