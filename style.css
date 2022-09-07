@@ -6,3 +6,7 @@ Version:0.0.2
 Author: Thomas Worofsky
 Author URI: https://github.com/Thowo91
 */
+
+body {
+    font-family: 'Noto Sans', arial, sans-serif;
+}
