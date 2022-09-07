@@ -7,5 +7,5 @@
 	<div>
 		<?php the_content(); ?>
     </div>
-
+	<hr />
 </article>

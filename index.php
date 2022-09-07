@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main class="container-md">
+
     <div class="row">
         <div class="col-md-9">
             <div class="bg-white">
@@ -11,11 +11,11 @@
         </div>
         <div class="col-md-3">
             <div class="bg-white">
-                <p>Sidebar</p>
+                <?php get_sidebar(); ?>
             </div>
         </div>
     </div>
     
-</main>
+
 
 <?php get_footer(); ?>
